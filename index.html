@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome kokoa talk</title>
 </head>
 <body>
     <div class="status-bar">
-
+        <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar_column">
+        <span>18:43</span>
+    </div>
+    <div class="status-bar_column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
 <header class="welcome header">
     <h1 class="welcome header_title">Welcome to KakaoTalk</h1>
     <p class="welcome header_text">if you have a Kakao Account,log in with your email or phone number</p>
 </header>
 
-<form>
+<form id="login-form">
     <input type="text" placeholder="Email or phone number">
     <input type="password" placeholder="Password">
     <input type="submit" value="log in">
