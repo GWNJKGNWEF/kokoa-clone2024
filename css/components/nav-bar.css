@@ -30,9 +30,21 @@
     font-weight: 600px;
     color: white;
     position: absolute;
-    left: 15px;
-    bottom: 15px;
-  
+    left: 22px;
+    bottom: 10px;
     
-       
+    }
+
+.nav_link{
+    position: relative;
+}
+     
+.nav_dot{
+    width: 10px;
+   color: tomato;
+    display: flex;
+    left: 25px;
+    position: absolute;
+    bottom: 25px;
+
 }
