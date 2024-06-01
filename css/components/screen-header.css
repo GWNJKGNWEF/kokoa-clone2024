@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    
 }
+
 .Screen-header_title{
     font-size: 22px;
     font-weight: 600;
